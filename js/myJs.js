@@ -31,7 +31,7 @@ $('document').ready(function(e) {
 
     $('#supportForm').hide();
     $('#support').on('click', function(){
-        $('#supportForm').slideDown(1000);
+        $('#supportForm').slideToggle((1000);
     });
 
 
