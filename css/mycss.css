@@ -1,4 +1,4 @@
-/* CSS Document */
+/* CSS Document by Emmanuel Ndukwe*/
 
 body{
     margin: 0;
@@ -12,10 +12,10 @@ body{
 
 }
 
-.container-fluid{
-    margin: 0 !important;
-    padding: 0 !important;
-}
+/*.container-fluid{*/
+    /*margin: 0 !important;*/
+    /*padding: 0 !important;*/
+/*}*/
 
 
 @media screen and (max-width: 300px){
