@@ -16,11 +16,11 @@ $('document').ready(function(e) {
     });
 
     $('.hidelux').click(function(e){
-       $('.lux').slideUp();
+       $('.lux').fadeOut(1000, "swing");
     });
 
     $('.hidebiz').click(function(e){
-        $('.biz').slideUp();
+        $('.biz').fadeOut(1000, "swing");
     });
     var name = $('#name').val();
     var email = $('#email').val();
