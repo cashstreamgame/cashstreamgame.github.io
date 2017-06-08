@@ -211,12 +211,9 @@ body{
 		/*background-image:url(images/body-kit-1869879_1920.jpg);
 		background-size:cover;*/
 		background-color:#000;
-		margin: 10px;
+/*		margin: 10px;*/
 		border-radius: 20px;
 		width: 100%;
-		
-		web-kit-box:;
-		
 		box-shadow: 3px 3px 3px #333; 
 	}
 .justify {
