@@ -1,0 +1,275 @@
+/* CSS Document by Emmanuel Ndukwe*/
+
+
+
+
+.float {
+    top: 10px;
+	position: fixed;
+	z-index: 2000;
+	left: 10px;
+
+}
+
+
+
+/*.container-fluid{*/
+    /*margin: 0 !important;*/
+    /*padding: 0 !important;*/
+/*}*/
+
+
+@media screen and (max-width: 300px){
+    .float {
+        top: 2px;
+    }
+
+
+
+   
+
+
+}
+@media screen and (min-width: 301px) and (max-width: 480px){
+
+    .float {
+        top: 2px;
+    }
+   
+
+
+}
+@media screen and (min-width: 480px) and (max-width: 766px) {
+
+    .float {
+        top: 2px;
+    }
+}
+
+.strokeme
+{
+    font-family: 'Passion One', cursive;
+    font-size:24px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #8E7200,
+    1px -1px 0 #8E7200,
+    -1px 1px 0 #8E7200,
+    1px 1px 0 #8E7200;  
+}
+.nLink{color: #ffffff}
+.strokeme li a{
+    color: #ffffff;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8E7200 !important;
+    border-color: #8E7200 !important;
+}
+
+.footer{
+	display: block;
+	background-color:black;
+	height:auto;
+	margin-top: 35px;
+	margin-bottom:0;
+	padding-top:30px;
+    width: 100%;
+
+	}
+.centered {
+	text-align:center;
+}
+#ribbon-armyGreen{
+	display: block;
+	background-color:#090;
+	height:80px;
+	margin: 0 !important;
+	color: #fff;
+	text-align:center;
+	font-weight:900; 
+	font-family: 'Passion One', Verdana;
+	text-shadow:1px 1px 5px #000;
+	/*box-shadow: 5px 5px 5px #000 inset;*/
+	}
+#ribbon-blu{
+	display: block;
+	background-color:#06C;
+	height:80px;
+	margin: 0 !important;
+	color: #fff;
+	text-align:center;
+	font-weight:900; 
+	font-family: 'Passion One', Verdana;
+	text-shadow:1px 1px 5px #000;
+	/*box-shadow: 5px 5px 5px #000 inset;*/
+	}
+.ribbon-gold{
+	display: block;
+	background-color:#8E7200;
+	height:80px;
+	margin: 0 !important;
+    padding-top: 19px;
+	color: #fff;
+	text-align:center;
+	font-weight:900;
+    /*line-height: 80px;*/
+	font-family: 'Passion One', Verdana;
+	text-shadow:1px 1px 5px #000;
+	}
+
+.text-shadow{
+    text-shadow:1px 1px 5px #000;
+}
+
+.ribbon-blue{
+    display: block;
+    background-color:#3AB6D3;
+    height:80px;
+    margin: 0 !important;
+    padding-top: 19px;
+    color: #fff;
+    text-align:center;
+    font-weight:900;
+    /*line-height: 80px;*/
+    font-family: 'Passion One', Verdana;
+    text-shadow:1px 1px 5px #000;
+}
+
+#ribbon-gree{
+	display: block;
+	background-color:#F90;
+	height:80px;
+	margin: 0 !important;
+	color: #fff;
+	text-align:center;
+	font-weight:900; 
+	font-family: 'Passion One', Verdana;
+	text-shadow:1px 1px 5px #000;
+	}
+
+#ribbon-dar{
+	display: block;
+	background-color:#004080;
+	height:80px;
+	margin: 0 !important;
+	color: #fff;
+	text-align:center;
+	font-weight:900; 
+	font-family: 'Passion One', Verdana;
+	text-shadow:1px 1px 5px #000;
+	}
+
+/*.ribbon-blue > h1 {
+	margin-top: 0px;
+	margin-bottom:2px}*/
+#dsp{
+	display: inline;
+	height: 50px;
+    margin-top: 10px;
+	/*width:;*/
+	/*margin-bottom:10px;*/
+	border: 2px solid #fff;
+	border-radius:10px;
+	padding:0;
+	
+	}
+.footer > ul > li {
+		display: inline;
+		margin-left:0px !important;
+	}
+	
+.footer >.container > .row > div > p > a {
+	  text-decoration: none;
+	  color: white !important;
+	  text-align:center;
+	  padding: 8px;
+	  font-weight:600;
+	  display: inline;
+	  margin-left: 0px !important;
+	}
+
+/*<!--.footer > hr {
+	  
+	  color: #999 !important;
+	  border-color: #666 !important;
+	  margin-top:;
+	  margin-bott-->om: 20px;
+	}*/
+.body-intro {
+		display: block;
+		background-color:black;
+		left:0;
+		right:0;
+		margin: 0;
+		color:#fff !important;
+		overflow:hidden;
+		/*background-image:url(images/overview.fw.png);*/
+		background-size: cover;
+		height:500px;
+		width:auto;
+		padding: 100px 50px;
+	}
+
+#pp {
+		/*margin-top: 200px;
+		text-align:center;*/
+		font-weight:bolder;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 36px;
+		text-transform: capitalize;
+		display:block;
+		/*background-color: rgba(255,255,255,0.3);*/
+		text-shadow:#000;
+	}
+.img-box {
+		display: block;
+		height: 250px;
+		padding: 0;
+		/*background-image:url(images/body-kit-1869879_1920.jpg);
+		background-size:cover;*/
+		background-color:#000;
+/*		margin: 10px;*/
+		border-radius: 20px;
+		width: 100%;
+		box-shadow: 3px 3px 3px #333;
+        margin-top: 70px;
+	}
+.justify {
+		text-align:justify;
+	}
+.space {
+		margin-top: 50px;
+		margin-bottom:20px;
+	}
+.bspace {
+		margin-top: 10px;
+		margin-bottom:10px;
+	}
+	
+.fspace {
+		margin-top: 25px;
+		margin-bottom:20px;
+	}
+hr{
+		border: 0;
+		height: 1px;
+		background: #333;
+		background-image: linear-gradient(to right, #fff, #bbb, #fff);
+}
+.hh{
+		border: 0;
+		height: 1px;
+		background: #333;
+		background-image: linear-gradient(to right, #fff, #bbb, #fff);
+}
+
+#special {
+		display: inline-block;
+		border: 1px solid #000;
+		border-radius: 4px;
+		font-size: 20px;
+		text-align: center;
+		padding: 3px;
+		font-weight: bold;
+		margin-bottom: 15px;
+}
