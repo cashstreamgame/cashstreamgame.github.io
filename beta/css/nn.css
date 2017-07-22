@@ -524,7 +524,7 @@ body {
     /*padding-top: 70px; *//* padding for fixed navbar */
 }
 
-.article-collapse a, a:link, a:focus{
+.article-collapse a {
     color: #000000;
     transition: 400ms ease;
 }

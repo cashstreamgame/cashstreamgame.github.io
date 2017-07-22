@@ -121,6 +121,10 @@
     text-shadow:1px 1px 5px #000;
 }
 
+.text-shadow a, a:link{
+    color: #3AB6D3;
+}
+
 .ribbon-blue{
     display: block;
     background-color:#3AB6D3;
