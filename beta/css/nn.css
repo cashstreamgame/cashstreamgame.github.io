@@ -534,3 +534,7 @@ body {
     text-shadow:1px 1px 5px #000;
     transition: 400ms ease;
 }
+
+.nav-link a:hover{
+    color: #ffffff;
+}

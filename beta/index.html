@@ -1,858 +1,556 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
+<html>
+<head lang="en">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <!--
-       |***********************************************************|
-       |* Site designed and coded by Emmanuel Ndukwe alias eMASYS *|
-       |* follow me on:                                           *|
-       |* facebook: https://web.facebook.com/emasys23             *|
-       |* twitter: @emasys_nd                                     *|
-       |* github: emasys                                          *|
-       |***********************************************************|
-       -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
-
-    <title>CASH STREAMS 2017</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cash Stream 2017</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Passion+One" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
-
+    <link href="css/nn.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
+    <!--
+     |***********************************************************|
+     |* Site designed and coded by Emmanuel Ndukwe              *|
+     |* follow me on:                                           *|
+     |* facebook: https://web.facebook.com/emasys23             *|
+     |* twitter: @emasys_nd                                     *|
+     |* github: emasys                                          *|
+     |***********************************************************|
+     -->
+    <meta name="description" content="Official website for cash stream game">
+    <meta name="author" content="Emmanuel Ndukwe">
+    <link rel="icon" href="">
+    <title>CASH STREAMS 2017</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript">
       (function(){
           emailjs.init("user_vxUe1nZ3FDkXzG5ch4QUF");
       })();
     </script>
-      
-  </head>
-
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right strokeme">
-            <li><a href="#ribbon-gold">OVERVIEW</a></li>
-            <li><a href="#lifestyle">HOW TO PLAY</a></li>
-            <li><a href="#dl">DOWNLOAD</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    <a class="float" href="index.html">
+</head>
+<body data-spy="scroll" data-target="#navbarToggler" data-offset="10">
+  <a class="float" href="index.html">
       <img alt="Brand" src="images/logo.fw1.png">
-    </a>
-
-    <div class="container-fluid" style="margin: 0; padding: 0">
-        <div class="row">
-            <div class="col-lg-12 col-12">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img class="first-slide" src="images/caru.fw.png" alt="First slide">
-                            <div class="container-fluid">
-                                <div class="carousel-caption">
-                                    <h1 class="hidden-xs">CASH STREAM 2017</h1>
-                                    <p>Do you really think you can make it out there on you own? <span class="hidden-xs">Prove yourself in an addictive real life gaming exeperience</span></p>
-                                    <p><a class="btn btn-lg btn-primary hidden-xs" href="#dl" id="myb" role="button">Download Now</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img class="second-slide" src="images/caru1.fw.png" alt="Second slide">
-                            <div class="container-fluid">
-                                <div class="carousel-caption">
-                                    <h1 class="hidden-xs">Manage Real Life Businesses</h1>
-                                    <p>Put your managerial skills to use, start now. </p>
-                                    <p><a class="btn btn-lg btn-primary hidden-xs" href="#lifestyle" role="button">Learn more</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img class="third-slide" src="images/caru2.fw.png" alt="Third slide">
-                            <div class="container-fluid">
-                                <div class="carousel-caption">
-                                    <h1 class="hidden-xs">Live It Up!</h1>
-                                    <p>How would like to enjoy your success? This game will help you add a premium perspective to your dreams.</p>
-                                    <p><a class="btn btn-lg btn-primary hidden-xs" href="#dl" role="button">Download Game</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="left carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div><!-- /.carousel -->
-            </div>
-
-        </div>
-        </div>
-
-
-
-    
-    
-		<div class=" row " id="ribbon-gold">
-            <div class="ribbon-gold">
-                <div class="col-xs-12">
-                    <h1 class="featurette-heading">OVERVIEW</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row featurette space">
-                <div class="col-md-5">
-                  <h2 class="featurette-heading">Ready for Cash Stream? <span class="text-muted">let's get some money!</span></h2>
-                  <p class="lead">This is a financial entrepreneurial game, it gives one the opportunity to own
-                      and run businesses & assets, it also allows one make investments and gain profit but with a
-                      major advantage of owing luxurious items like cars, jets, mansions, yatch etc.</p>
-                      <a class="btn btn-lg btn-group-justified btn-primary text-center clearfix bspace"
-                          href="#lifestyle" role="button">Learn More <span class="
-                           fa fa-info-circle"  aria-hidden="true"></span></a>
-                 </div>
-                <div class="col-md-7">
-                  <img class="featurette-image img-responsive center-block img-thumbnail" src="images/cashstream.fw.png" alt="Generic placeholder image">
-                </div>
+  </a>
+  <nav class="navbar navbar-toggleable-md navbar-light fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mr-auto" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-5 mt-md-0 strokeme navbar-toggler-right">
+              <li class="nav-item">
+                  <a class="nav-link" href="#overview">Overview</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#howToPlay">How To Play</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#download">Download</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide hidden-sm-down" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+              <img class="d-block img-fluid" src="images/caru.fw.png" alt="First slide">
+              <div class="carousel-caption d-none d-md-block text-shadow">
+                  <h3>CASH STREAM 2017</h3>
+                  <p>
+                      Do you really think you can make it out there on you own? Prove yourself in an addictive real life gaming exeperience
+                  </p>
+                  <p><a class="btn btn-lg btn-outline-info" href="#download" role="button">Download Now</a></p>
+              </div>
           </div>
-		</div>
-        
-
-        <div class="row">
-            <div class="ribbon-gold">
-                <div class="col-xs-12" id="lifestyle">
-                    <h1 class="featurette-heading">GAMEPLAY</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="container justify space">
-            <div class="row">
-                <div class=" col-lg-4">
-                    <img src="images/Private-Jet-Charter.jpg" class = "img-box"/>
-                    <h2 class="featurette-heading">Luxury</h2>
-                    <p class="lead">Explore the opportunity to own luxurious items,
-                        you get the opportunity to purchase luxurious items in the game
-                        e.g jets, cars, mansions etc.
-                    </p>
-                    <a class="btn btn-lg btn-group-justified btn-primary pull-right clearfix bspace"
-                            id = "lm-lux" href="#luxDeluxe" role="button">Learn More <span class="
-                            fa fa-info-circle" aria-hidden="true"></span></a><hr class="featurette">
-                </div>
-
-                <div class="col-lg-4">
-            	    <img src="images/bonds.jpg" class = "img-box"/>
-                    <h2 class="featurette-heading">Daily Investments</h2>
-                    <p class="lead">On a daily basics three(3) investments options and avenues are offered to players to
-                      invest their money and buy assests which should either increase or decrease their cash flow with time.</p>
-                    <a class="btn btn-lg btn-group-justified btn-primary pull-right clearfix bspace"
-                            id = "lm-inv" href="#lux" role="button">Learn More
-                    <span class="fa fa-info-circle"  aria-hidden="true"></span></a><hr class="featurette">
-                </div>
-
-                <div class=" col col-lg-4">
-                    <img src="images/architecture-1639990_1280.jpg" class = "img-box"/>
-                    <h2 class="featurette-heading">Businesses</h2>
-                    <p class="lead">This section offers different business options and also different levels, you can only
-                          invest with money available to you, so you might want to invest wisely.</p>
-                    <a class="btn btn-lg btn-group-justified btn-primary pull-right clearfix bspace"
-                            id = "lm-biz" href="#businesses" role="button">Learn More
-                    <span class="fa fa-info-circle"  aria-hidden="true"></span></a><hr class="featurette">
-                </div>
-            	
-            </div>
-        </div>
-
-
-        <div class=" row lux">
-            <div class="ribbon-gold">
-                <div class="col-xs-12" id="luxDeluxe">
-                    <h1 class="featurette-heading">LUXURY DELUXE</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="container lux">
-            <div class="row featurette space" id="luxInfo">
-                <div class="col-xs-12">
-                    <a href="#luxDeluxe" class="btn btn-primary pull-right hidelux text-center" ><strong>Collapse &times;</strong></a>
-                </div>
-                <div class="col-md-12">
-                    <h2 class="featurette-heading">
-                      Explore the opportunity to own luxurious items, you get the opportunity
-                        to purchase luxurious items in the game e.g jets, cars, mansions etc.</h2>
-                    <p class="lead text-muted">Below are some of the luxury you can acquire if you wish </p>
-                     <div class="col-lg-12">
-                      <hr>
-                    </div>
-
-                    <h2 class="featurette-heading">MANSIONS <small id="special">BENEDICT CANYON Drive
-                    Beverly Hills</small></h2>
-                    <p class="lead">
-                        In Benedict Canyon, minutes from Rodeo Drive and behind a guarded gate,
-                        an incomparable equestrian dream unfolds across sixteen magnificent acres.
-                        Here, miles of riding trails meander through magical woodlands, winding back
-                        home to five deluxe stables and two horse rings. A 20,000 square foot main house,
-                        now being freshly reinvisioned, is invisible from the rest of the compound.
-                        The ultimate equestrian environment with a group of magnificent stables;
-                        a pair of pristine and white-graveled riding rings as well a tennis court with
-                        seating area, lavishly landscaped grounds, and more. A stunning 7,000-square-foot
-                        Moroccan guest house, soaring arched windows prove to be walk-through doorways to the
-                        landscape beyond. Moroccan tiles, hand-carved wooden doors and coffered ceilings create a
-                        richly inviting ambiance. Sequestered in the canyon just moments from the Beverly Hills Hotel,
-                        this vast treasure is part rustic, part refined and wholly without equal.
-                    </p>
-                    <div class="col-md-6 pull-right">
-                  <img class="featurette-image img-responsive center-block clearfix img-thumbnail" src="images/crib.jpg" alt="Generic placeholder image">
-                </div>
-                  <h2 class="featurette-heading">Bedroom Information</h2>
-                    <p class="lead text-muted">
-                        Number of Bedrooms: <code>11</code></p>
-                    <h2 class="featurette-heading">Bathroom Information</h2>
-                    <p class="lead text-muted">
-                    Number of Full Bathrooms: <code>17</code><br>
-                    Powder Room
-                    
-                     <h2 class="featurette-heading">Additional Rooms</h2>
-                    <p class="lead text-muted"> Dining Room, Master Bedroom, Den Other, Atrium, Bonus Room, Family Room, Formal Entry, Guest-Maids Quarters, Gym/Exercise, Home Theatre, LivingRoom, Office Sauna, Tack Room, Dressing Area, Two Masters Walk-In Closet
-                     <h2 class="featurette-heading">Heating & Cooling</h2>
-                    <p class="lead text-muted">
-                     Central A/C, Ceiling Fan(s), Central Furnace
-                     <h2 class="featurette-heading">Other Features</h2>
-                    <p class="lead text-muted">
-                        Bar, Intercom
-</p>
-                
+          <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/caru1.fw.png" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block text-shadow">
+                  <h3>Manage Real Life Businesses</h3>
+                  <p>Put your managerial skills to use, start now. </p>
+                  <p><a class="btn btn-lg btn-outline-info" href="#howToPlay" role="button">Learn more</a></p>
+              </div>
           </div>
-        </div>
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
+          <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/caru2.fw.png" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block text-shadow">
+                  <h3>Live It Up!</h3>
+                  <p>How would like to enjoy your success? This game will help you add a premium perspective to your dreams.</p>
+                  <p><a class="btn btn-outline-info" href="#download" role="button">Let's Go!</a></p>
 
-<div class="col-md-5">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/toyota.jpg" alt="Generic placeholder image">
-                </div>
-                        <h2 class="featurette-heading">CARS <small id ="special" >Toyota Camry</small></h2>
-
-                <p class="lead">
-For the majority of people to whom a car is merely an appliance, the Camry meets their needs perfectly. Those seeking a zestier ride should look elsewhere. A 178-hp four-cylinder is standard, while a 268-hp V-6 offers some serious zip. Both get a six-speed automatic. A hybrid is EPA-rated for 38 mpg highway. The XSE offers a stiffer suspension and some extra styling bits, but its steering is numb, its braking and handling unexceptional. An all-new Camry will roll onto dealer lots this summer.
-    
-                
+              </div>
           </div>
-        </div>
-        
-        <div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
-
-<div class="col-md-5 pull-right">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/subaru.jpg" alt="Generic placeholder image">
-                </div>
-                        <h2 class="featurette-heading">CARS <small id ="special" >Subaru Impreza</small></h2>
-
-                <p class="lead text-muted">
-Completely redesigned for 2017, the Subaru Impreza is available as a compact sedan or hatchback. Known in the past for its roomy interior, Subaru has moved the wheels even farther apart to open up additional space in the cabin. The interior has also been upgraded with better materials, more modern technology and several useful safety features. Along with fresh exterior styling and additional power for the four-cylinder engine, this Impreza is well positioned in this competitive segment.<br>
-Even with all its upgrades, though, the Impreza still has a few key faults. Even with the addition of extra power for 2017, the standard four-cylinder engine is underpowered. The quality of the interior materials isn't quite at the top of the class either. The optional continuously variable automatic transmission (CVT) can be a little loud at times as well, but none of these shortcomings is enough to cross it off your list. 
-
-                
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+  <div id="carouselIndicators" class="carousel slide hidden-sm-up" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+              <img class="d-block" src="images/caru-sm.fw.png" alt="First slide">
+              <div class="carousel-caption text-shadow">
+                  <h3>CASH STREAM 2017</h3>
+                  <p>
+                      Do you really think you can make it out there on you own? Prove yourself in an addictive real life gaming exeperience
+                  </p>
+                  <p><a class="btn btn-outline-info" href="#download" role="button">Download Now</a></p>
+              </div>
           </div>
-        </div>
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
-
-<div class="col-md-5">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/lexus.jpg" alt="Generic placeholder image">
-                </div>
-                        <h2 class="featurette-heading">CARS <small id ="special" >2017 Lexus RX 350</small></h2>
-
-                <p class="lead text-muted">Comfort, quality and a carlike driving experience are key strengths of the 2017 Lexus RX 350. Although it falls short of its competitors in some ways, it's impeccably crafted and boldly styled. The RX is a smart pick if you're looking for a well-rounded luxury crossover.
-    
-                
+          <div class="carousel-item">
+              <img class="d-block" src="images/caru1-sm.fw.png" alt="Second slide">
+              <div class="carousel-caption text-shadow">
+                  <h3>Manage Real Life Businesses</h3>
+                  <p>Put your managerial skills to use, start now. </p>
+                  <p><a class="btn btn-outline-info" href="#howToPlay" role="button">Learn more</a></p>
+              </div>
           </div>
-        </div>
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
+          <div class="carousel-item">
+              <img class="d-block" src="images/caru2-sm.fw.png" alt="Third slide">
+              <div class="carousel-caption text-shadow">
+                  <h3>Live It Up!</h3>
+                  <p>How would like to enjoy your success? This game will help you add a premium perspective to your dreams.</p>
+                  <p><a class="btn btn-outline-info" href="#download" role="button">Let's Go!</a></p>
 
-
-                <div class="col-md-7">
-                        <h2 class="featurette-heading">CARS <small id ="special" >2017 Honda Fit</small></h2>
-
-
-                <p class="lead text-muted">A roomy interior, massive-for-its-size cargo capacity and strong fuel economy make the 2017 Honda Fit a top choice among subcompact hatchbacks.
-                
-               <ul class="lead text-muted">
-               		<li>
-                    	Pros
-                        <ul>
-                        	<li>Surprisingly spacious cabin for a subcompact</li>
-                            <li>Unique rear seat design offers unmatched cargo versatility</li>
-                            <li>Excellent fuel economy ratings.</li>
-                        </ul>
-                    </li>
-                    <li>
-                    	cons
-                        <ul>
-                        	<li>Touchscreen interface isn't always very intuitive too frustrating</li>
-                            <li>Weak braking performance compared to the rest of its competitors</li>
-                            <li>Fewer smartphone integration options for Android users. </li>
-                        </ul>
-                    </li>
-               </ul>
-
-</div>
-<div class="col-md-5">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded pull-right" src="images/honda.jpg" alt="Generic placeholder image">
-                </div>
-                
+              </div>
           </div>
-        </div>
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
+      </div>
+      <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
 
-<div class="col-md-7">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/sevenseas.jpg" alt="Generic placeholder image">
-                </div>
-                        <h2 class="featurette-heading">YACHT <small id ="special" >Seven Seas 85.95m motor yacht</small></h2>
-
-                <p class="lead text-muted">Seven Seas is a 85.95m motor yacht, custom built in 2010 by Oceanco in Alblasserdam ( Netherlands ). Nuvolari & Lenard is responsible for her beautiful exterior and interior design. She was last refitted in 2016 by Amico & Co Srl.
-Seven Seas yacht has a steel hull with a aluminium superstructure with a beam of 14.02m  (45'11"ft) and a 3.96m  (12'11"ft) draft .Seven Seas is built to comply to MCA standards. 
-Seven Seas is capable of 20.00 knots flat out, with a cruising speed of 15.00 knots with range of 5000.00nm. 
-Seven Seas offers accommodation for up to 12 guests in 7 suites comprising 1 owner cabin, 6 double cabins. She is also capable of carrying up to 23 crew onboard to ensure a relaxed luxury yacht experience. 
-
-                
+  <!--<div class="hidden-sm-up" style="height: 300px; width: 100%; background-image: url('images/caru2.fw.png'); background-size: cover" >-->
+  <!--</div>-->
+  <div class="container-fluid" id="overview">
+      <div class="row">
+          <div class=" col-12 ribbon-gold align-content-center">
+              <h1 class="featurette-heading ">OVERVIEW</h1>
           </div>
-        </div><!--ROW-->
-        
-        <div class="row featurette space" id="luxInfo">
-    <div>
-                  
-                  <hr>
-                  
-                  
-
-
-                </div>
-                <div class="col-md-5">
-                
-                        <h2 class="featurette-heading">YACHT <small id ="special" >Dilbar super-yacht</small></h2>
-
-                <p class="lead text-muted">Dilbar is a super-yacht launched on 14 November 2015[1] at the German Lürssen shipyard and delivered in 2016.[2][3] She was built as Project Omar. The interior design of Dilbar was designed by Andrew Winch and the exterior by Espen Oeino.
-Dilbar is considered to be the largest yacht in the world by volume.[5]
-The length of the yacht is 156 m (512 ft) and the beam is 24 m (79 ft). The draught of Dilbar is 6.1 m (20 ft).
-Dilbar features a displacement steel hull and aluminium superstructure, with teak decks.
+      </div>
+  </div>
+  <section class="container">
+      <div class="row featurette space">
+          <div class="col-md-7">
+              <img class="featurette-image img-responsive center-block img-thumbnail" src="images/ddd.jpg" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-5">
+              <h2 class="featurette-heading">Ready for Cash Stream? <span class="text-muted">let's get some money!</span></h2>
+              <p class="lead">This is a financial entrepreneurial game, it gives one the opportunity to own
+                  and run businesses & assets, it also allows one make investments and gain profit but with a
+                  major advantage of owing luxurious items like cars, jets, mansions, yacht etc.
 
               </p>
-              </div>  
-              <div class="col-md-7">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/dilbar.jpg" alt="Generic placeholder image">
+              <p>The game is currently in development stage, but you can subscribe for our newsletter to
+                  be the first to enjoy CashStream!
+              <p><a class="btn btn-lg btn-outline-info" href="#download" role="button">Let's Go!</a></p>
+
+              </p>
           </div>
-        </div><!--ROW-->
-        
-        <div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-                  
-
-<div class="col-md-7">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/sunflower.jpg" alt="Generic placeholder image">
-                </div>
-                        <h2 class="featurette-heading">YACHT <small id ="special" >Sunflower super-yacht</small></h2>
-
-                <p class="lead text-muted">The ship was code named Project Sunflower during its construction. It is currently the world's highest displacement super-yacht (15,850 tons), the most powerful (16,500kW) and fifth longest super-yacht (155m).[2] Al Said was launched by the Lürssen shipyard in September 2007 and at the time of her launch she was the world's second longest yacht. 
-
-                
+      </div>
+  </section>
+  <section class="container-fluid" id="howToPlay">
+      <div class="row">
+          <div class=" col-12 ribbon-blue">
+              <h1 class="featurette-heading ">HOW TO PLAY</h1>
           </div>
-        </div><!--ROW-->
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  
-        <div class="col-md-5">          
-
-
-                        <h2 class="featurette-heading">JET <small id ="special" >Beechcraft Bonanza</small></h2>
-
-                <p class="lead text-muted">The Beechcraft Bonanza is an American general aviation aircraft introduced in 1947 by Beech Aircraft Corporation of Wichita, Kansas. The six-seater, single-engined aircraft is still being produced by Beechcraft and has been in continuous production longer than any other airplane in history.[3][4] More than 17,000 Bonanzas of all variants have been built,[5][6] produced in both distinctive V-tail and conventional tail configurations. 
-				</p>
-                </div>
-                <div class="col-md-7">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/beech.jpg" alt="Generic placeholder image">
-                </div>
-          </div>
-        </div><!--ROW-->
-
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                 <hr>
-<div class="col-md-5">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/cessna414.jpg" alt="Generic placeholder image">
-                </div>
-                 <h2 class="featurette-heading">JET <small id ="special" >Cessna 414</small></h2>
-
-                <p class="lead text-muted">The Cessna 414 is an American light, pressurized, twin-engine transport aircraft built by Cessna. It first flew in 1968 and an improved variant was introduced from 1978 as the 414A Chancellor.
-
-                
-          </div>
-        </div><!--ROW-->
-<div class="row featurette space" id="luxInfo">
-    <div class="col-md-12">
-                  
-                  <hr>
-                  <div class="col-md-7">
-                  
-
-
-                        <h2 class="featurette-heading">JET <small id ="special" >Cessna 182 Skylane</small></h2>
-
-                <p class="lead text-muted">The Cessna 182 Skylane is an American four-seat, single-engined light airplane, built by Cessna of Wichita, Kansas. It has the option of adding two child seats, installed in the baggage area.
-Introduced in 1956, the 182 has been produced in a number of variants, including a version with retractable landing gear, and is the second most popular Cessna model, after the 172.
-
-</p>
-</div>
-                <div class="col-md-5">
-                  <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/cessna189.jpg" alt="Generic placeholder image">
-                </div>
-          </div>
-        </div><!--ROW-->
-            <div class="col-xs-12 space">
-                <a href="#luxDeluxe" class="btn btn-primary pull-right hidelux text-center" ><strong>Collapse &times;</strong></a>
-            </div>
-
-
-        </div>
-        
-        
-
-
-        <div class=" row biz" id="businesses">
-            <div class="ribbon-gold">
-                <div class="col-xs-12">
-                    <h1 class="featurette-heading">BUSINESSES</h1>
-                </div>
-            </div>
-        </div>
-
-        	<div class="container biz">
-            	<div class="row featurette space">
-                <div class="col-xs-12 ">
-                    <a href="#lifestyle" class="btn btn-primary pull-right text-center hidebiz" ><strong>Collapse &times;</strong></a>
-                </div>
-
-
-                <div class="col-md-12">
-                    <h2 class="featurette-heading">
-                        This section offers different business options and also different levels,
-                        you can only invest with money available to you, so you might want to invest wisely.
-                    </h2>
-
-                    <p class="lead text-muted">Below are some of the companies you could own.</p>
-                    <hr>
-                  
-                  
-
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/oil.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="col-md-7">
-                    <h2 class="featurette-heading">OIL COMPANY <small id ="special" >Worth: $2,000,000</small></h2>
-
-                    <p class="lead text-muted">
-
-                    <table class="table table-responsive table-hover">
-                      <tr>
-                        <th>Level</th>
-                        <th>Upgrade</th>
-                        <th>Returns</th>
-                        <th>Sales</th>
-
-                      </tr>
-                      <tr>
-                        <td >Level One</td>
-                        <td>N/A</td>
-                        <td>$100,000</td>
-                        <td>$1,600,000</td>
-                      </tr>
-                      <tr>
-                        <td >Level Two</td>
-                        <td>$50,000</td>
-                        <td>$150,000</td>
-                        <td>$2,100,000</td>
-                      </tr>
-                      <tr>
-                        <td >Level Three</td>
-                        <td>$100,000</td>
-                        <td>$250,000</td>
-                        <td>$2,600,000</td>
-                      </tr>
-                       <tr>
-                        <td >Level Four</td>
-                        <td>$200,000</td>
-                        <td>$400,000</td>
-                        <td>$3,200,000</td>
-                      </tr>
-                      <tr>
-                        <td >Level Five</td>
-                        <td>$250,000</td>
-                        <td>$600,000</td>
-                        <td>$3,800,000</td>
-                      </tr>
-
-                    </table>
-                    
-                    </div>
-                        
-                
-          
-        <div class="col-lg-12">
-                  <hr>
+      </div>
+  </section>
+  <section class="container">
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="thecard">
+                  <div class="card-img">
+                      <img src="images/Exotic-Car-Key-Briefcase-2.jpg">
                   </div>
-                  
-
-                    
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading text-uppercase">
-                        	Export Company <small id ="special" >Worth: $1,000,000</small></h2>
-
-                        <p class="lead text-muted">
-                         
-
-                        <table class="table table-responsive table-hover">
-                          <tr>
-                            <th>Level</th>
-                            <th>Upgrade</th>
-                            <th>Returns</th>
-                            <th>Sales</th>
-
-                          </tr>
-                          <tr>
-                            <td >Level One</td>
-                            <td>N/A</td>
-                            <td>$80,000</td>
-                            <td>$800,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Two</td>
-                            <td>$150,000</td>
-                            <td>$130,000</td>
-                            <td>$1,200,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Three</td>
-                            <td>$150,000</td>
-                            <td>$200,000</td>
-                            <td>$1,800,000</td>
-                          </tr>
-                           <tr>
-                            <td >Level Four</td>
-                            <td>$150,000</td>
-                            <td>$300,000</td>
-                            <td>$2,600,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Five</td>
-                            <td>$150,000</td>
-                            <td>$420,000</td>
-                            <td>$3,000,000</td>
-                          </tr>
-
-                        </table>
-                        </p>
-                    </div>
-                  
-                   
-                  <div class="col-md-5">
-                        <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/export.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="col-lg-12">
-                  <hr>
+                  <div class="card-caption">
+                      <h2 class="featurette-heading">Lifestyle</h2>
+                      <p>Explore the opportunity to own luxurious items,
+                          you get the opportunity to purchase luxurious items in the game
+                          e.g jets, cars, mansions etc.
+                      </p>
                   </div>
-                  
-<div class="col-md-5">
-                        <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/metal.jpg" alt="Generic placeholder image">
-                    </div>
-                    
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading text-uppercase">
-                        	Metal Company <small id ="special" >Worth: $50,000</small></h2>
-
-                        <p class="lead text-muted">
- 
- 						<table class="table table-responsive table-hover">
-                          <tr>
-                            <th>Level</th>
-                            <th>Upgrade</th>
-                            <th>Returns</th>
-                            <th>Sales</th>
-
-                          </tr>
-                          <tr>
-                            <td >Level One</td>
-                            <td>N/A</td>
-                            <td>$2,500</td>
-                            <td>$35,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Two</td>
-                            <td>$4,000</td>
-                            <td>$4,000</td>
-                            <td>$55,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Three</td>
-                            <td>$8,000</td>
-                            <td>$7,000</td>
-                            <td>$70,000</td>
-                          </tr>
-                           <tr>
-                            <td >Level Four</td>
-                            <td>$12,000</td>
-                            <td>$11,000</td>
-                            <td>$85,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Five</td>
-                            <td>$16,000</td>
-                            <td>$17,000</td>
-                            <td>$100,000</td>
-                          </tr>
-
-                        </table>
-                        </p>
-                    </div>
-                  
-                   
-                  
-                    <div class="col-lg-12">
-                  <hr>
+                  <a href="#lifestyleFull" id="lifestyleButton">
+                      <div class="card-outmore card-footer">
+                          <h5>Let's Go!</h5>
+                          <i class="fa fa-angle-right outmore-icon"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="thecard">
+                  <div class="card-img">
+                      <img src="images/bonds.jpg">
                   </div>
-                  
-                  
+                  <div class="card-caption">
+                      <h2 class="featurette-heading">Daily Investments</h2>
+                      <p>Three(3) investment options/avenues will be offered to you to
+                          invest your money or buy assests which it's value may appreciate with time.
+                      </p>
+                  </div>
+                  <a href="#investment" id="investmentButton">
+                      <div class="card-outmore card-footer">
+                          <h5>Let's Go!</h5>
+                          <i class="fa fa-angle-right outmore-icon"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="col-lg-4 ">
+              <div class="thecard">
+                  <div class="card-img">
+                      <img src="images/biz.fw.png">
+                  </div>
+                  <div class="card-caption">
+                      <h2 class="featurette-heading">Businesses</h2>
+                      <p class="">This section offers different business options and also different levels, you can only
+                          invest with money available to you, so you might want to invest wisely.
+                      </p>
+                  </div>
+                  <a href="#business" id="businessButton" >
+                      <div class="card-outmore">
+                          <h5>Let's Go! </h5>
+                          <i class="fa fa-angle-right outmore-icon"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div id="content">
+      </div>
+  </section>
+  <section class="container-fluid lifestyle" id="lifestyleFull">
+      <div class="row">
+          <div class=" col-12 ribbon-blue">
+              <h1 class="featurette-heading ">LIFESTYLE</h1>
+          </div>
+      </div>
+  </section>
+  <div class="container lifestyle">
+      <div class="row featurette space">
+          <div class="col-12 text-right article-collapse">
+              <a href="#howToPlay" class="closeup" ><i class="fa fa-times-circle-o fa-4x"></i></a>
+          </div>
 
-                    
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">IT COMPANY <small id ="special" >Worth: $50,000</small></h2>
+          <div class="col-12">
+              <div class="offset-lg-1">
+                  <h2 class="featurette-heading">
+                      Explore the opportunity to own luxurious items, you get the opportunity
+                      to purchase luxurious items in the game such as jets, cars, mansions and more.
+                  </h2>
+                  <figure class="snip1543">
+                      <img src="images/sub.fw.png" alt="subaru car" />
+                      <figcaption>
+                          <h3>Subaru Impreza 2017</h3>
+                          <p>
+                              Known in the past for its roomy interior, Subaru has moved the wheels even farther
+                              apart to open up additional space in the cabin.
+                          </p>
+                      </figcaption>
+                  </figure><figure class="snip1543">
+                  <img src="images/sun.fw.png" alt="yacht" />
+                  <figcaption>
+                      <h3>Sunflower</h3>
+                      <p>
+                          It is currently the world's highest displacement super-yacht
+                          (15,850 tons), the most powerful (16,500kW) and fifth longest super-yacht (155m)
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/cs424.fw.png" alt="private jet" />
+                  <figcaption>
+                      <h3>Cessna 414</h3>
+                      <p>
+                          The Cessna 414 is an American light, pressurized, twin-engine transport aircraft built by
+                          Cessna. It first flew in 1968 and an improved variant was introduced from 1978 as the 414A Chancellor.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/lx.fw.png" alt="cars" />
+                  <figcaption>
+                      <h3>2017 Lexus RX 350</h3>
+                      <p>
+                          Comfort, quality and a carlike driving experience are key strengths of the 2017 Lexus RX 350.
+                          Although it falls short of its competitors in some ways, it's impeccably crafted and boldly
+                          styled.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/dilbars.fw.png" alt="yacht" />
+                  <figcaption>
+                      <h3>Dilbar</h3>
+                      <p>
+                          Cruise around the globe in a comfortable premium yacht, Dilbar is considered to be the
+                          largest yacht in the world by volume. The length of
+                          the yacht is 156 m (512 ft) and the beam is 24 m (79 ft).
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/beechcraft.fw.png" alt="jet" />
+                  <figcaption>
+                      <h3>Beechcraft Bonanza</h3>
+                      <p>
+                          Travel the world in the prestigious six-seater, single-engined aircraft is still being
+                          produced by Beechcraft and has been in continuous production longer than any other airplane in history.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/jet1.fw.png" alt="yatch" />
+                  <figcaption>
+                      <h3>Seven Seas</h3>
+                      <p>
+                          Seven Seas is capable of 20.00 knots flat out, with a cruising speed of 15.00 knots with range of 5000.00nm.
+                          Seven Seas offers accommodation for up to 12 guests in 7 suites comprising 1 owner cabin, 6 double
+                          cabins.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/toyota2.fw.png" alt="car" />
+                  <figcaption>
+                      <h3>Toyota Camry</h3>
+                      <p>A 178-hp four-cylinder is standard, while a 268-hp V-6
+                          offers some serious zip. Both get a six-speed automatic.
+                          A hybrid is EPA-rated for 38 mpg highway..
+                      </p>
+                  </figcaption>
+              </figure>
+                  <figure class="snip1543"><img src="images/house.fw.png" alt="Mansion" />
+                      <figcaption>
+                          <h3>BENEDICT CANYON</h3>
+                          <p> The ultimate equestrian environment with a group of magnificent stables;
+                              a pair of pristine and white-graveled riding rings as well a tennis court with
+                              seating area, lavishly landscaped grounds, and more.
+                          </p>
+                      </figcaption>
+                  </figure>
+              </div>
+          </div>
+      </div>
+  </div>
+  <section class="container-fluid business" id="business">
+      <div class="row">
+          <div class="col-12 ribbon-blue">
+              <h1 class="featurette-heading ">BUSINESSES</h1>
+          </div>
+      </div>
+  </section>
+  <div class="container business">
+      <div class="row featurette space" >
+          <div class="col-12 text-right article-collapse">
+              <a href="#howToPlay" class="closeup" ><i class="fa fa-times-circle-o fa-4x"></i></a>
+          </div>
 
-                        <p class="lead text-muted">
-                        
-                        <table class="table table-responsive table-hover">
-                          <tr>
-                            <th>Level</th>
-                            <th>Upgrade</th>
-                            <th>Returns</th>
-                            <th>Sales</th>
+          <div class="col-12">
+              <div class="offset-lg-1">
+                  <h2 class="featurette-heading">
+                      This section offers different business options and also different levels,
+                      you can only invest with money available to you, so you might want to invest wisely.
+                  </h2>
+                  <p class="lead text-muted">Below are some of the companies you could own.</p>
+                  <figure class="snip1543">
+                      <img src="images/it.fw.png" alt="ict logo" />
+                      <figcaption>
+                          <h3>IT Company</h3>
+                          <p>
+                              The Startup is currently worth: $50,000, could rise to a $3,000,000 within short period of time.
+                          </p>
+                      </figcaption>
+                  </figure><figure class="snip1543">
+                  <img src="images/oilcoy.fw.png" alt="oil company logo" />
+                  <figcaption>
+                      <h3>Oil Company</h3>
+                      <p>
+                          The company is currently worth: $2,000,000, your level in the game will help you decide if this is one you can afford.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/metalcoy.fw.png" alt="metal company" />
+                  <figcaption>
+                      <h3>Metal Company</h3>
+                      <p>
+                          The company is currently worth: $50,000, gotta start from somewhere right? level up for better deals.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/shipping.fw.png" alt="export company"/>
+                  <figcaption>
+                      <h3>Export Company</h3>
+                      <p>
+                          The company is currently worth: $1,000,000, we are not saying this must be a good deal, how does
+                          Amazon in USA intend to ship items to iran?
+                      </p>
+                  </figcaption>
+              </figure>
+              </div>
+          </div>
+      </div>
+  </div>
+  <section class="container-fluid investment" id="investment">
+      <div class="row">
+          <div class="col-12 ribbon-blue">
+              <h1 class="featurette-heading ">DAILY INVESTMENT</h1>
+          </div>
+      </div>
+  </section>
+  <div class="container investment">
+      <div class="row featurette space">
+          <div class="col-12 text-right article-collapse">
+              <a href="#howToPlay" class="closeup"><i class="fa fa-times-circle-o fa-4x"></i></a>
+          </div>
+          <div class="col-12">
+              <div class="offset-lg-1">
+                  <h2 class="featurette-heading">
+                      This options are picked randomly on a daily basis,
+                      you are able to buy one at a time but can sell any of
+                      them as a single unit i.e if u have 100 pieces, you can
+                      sell the 100 at once but buy 1 at a time.
+                  </h2>
+                  <figure class="snip1543">
+                      <img src="images/diam.fw.png" alt="diamond" />
+                      <figcaption>
+                          <h3>DIAMOND</h3>
+                          <p>
+                              Investing in diamonds could be the missing part of the puzzle.
+                          </p>
+                      </figcaption>
+                  </figure><figure class="snip1543">
+                  <img src="images/1bonds.fw.png" alt="bonds" />
+                  <figcaption>
+                      <h3>Bonds</h3>
+                      <p>
+                          The fastest way to benefit from the government, I'll leave this one to you.
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/12unit.fw.png" alt="House" />
+                  <figcaption>
+                      <h3>Twelve Unit Apartment</h3>
+                      <p>
+                          Real Estate is not for the weak, prove yourself!
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/8unit.fw.png" alt="house" />
+                  <figcaption>
+                      <h3>Eight Unit Apartment</h3>
+                      <p>
+                          Real Estate is not for the weak, prove yourself!
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/bongalow.fw.png" alt="house" />
+                  <figcaption>
+                      <h3>Luxury Bungalow </h3>
+                      <p>
+                          Real Estate is not for the weak, prove yourself!
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/4unit.fw.png" alt="house" />
+                  <figcaption>
+                      <h3>Four Unit Apartment</h3>
+                      <p>
+                          Real Estate is not for the weak, prove yourself!
 
-                          </tr>
-                          <tr>
-                            <td >Level One</td>
-                            <td>N/A</td>
-                            <td>$1,000</td>
-                            <td>$48,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Two</td>
-                            <td>$100,000</td>
-                            <td>$10,000</td>
-                            <td>$450,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Three</td>
-                            <td>$250,000</td>
-                            <td>$75,000</td>
-                            <td>$1,000,000</td>
-                          </tr>
-                           <tr>
-                            <td >Level Four</td>
-                            <td>$500,000</td>
-                            <td>$120,000</td>
-                            <td>$2,000,000</td>
-                          </tr>
-                          <tr>
-                            <td >Level Five</td>
-                            <td>$1,000,000</td>
-                            <td>$210,000</td>
-                            <td>$3,000,000</td>
-                          </tr>
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/1gold.fw.png" alt="gold" />
+                  <figcaption>
+                      <h3>Gold</h3>
+                      <p>
+                          Gold is king, level up and invest!
+                      </p>
+                  </figcaption>
+              </figure><figure class="snip1543">
+                  <img src="images/dupiex.fw.png" alt="house" />
+                  <figcaption>
+                      <h3>Luxury Duplex</h3>
+                      <P>
+                          Real Estate is not for the weak, prove yourself!
+                      </p>
+                  </figcaption>
+              </figure>
+                  <figure class="snip1543"><img src="images/2unit.fw.png" alt="Mansion" />
+                      <figcaption>
+                          <h3>TWO UNIT APARTMENT</h3>
+                          <p>
+                              Real Estate is not for the weak, prove yourself!
+                          </p>
+                      </figcaption>
+                  </figure>
+              </div>
+          </div>
 
-                        </table>
-                        </p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-responsive center-block clearfix img-rounded" src="images/it-company.jpg" alt="Generic placeholder image">
+      </div>
+  </div>
+  <footer class="footer-distributed" id="download">
+      <div class="footer-left">
+          <p class="footer-links">
+              <a href="#">Top</a>
+              ·
+              <a href="#">Privacy Policy</a>
+              ·
+              <a href="#">Term of Use</a>
+          </p>
+          <p><a href="#"><img id="dsp" class="" src="images/gspp.jpg"/></a></p>
 
-                    </div>
+          <p class="footer-company-name">CashStreams &copy; 2017</p>
+          <div class="footer-icons">
+              <a href="https://facebook.com/cashstreams1" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/cashstreams1" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/cashstreams1" target="_blank"><i class="fa fa-instagram" ></i></a>
+          </div>
+      </div>
+      <div class="footer-right">
+          <form action="" method="post" style="margin-right: 70px" id="subForm">
+              <input type="email" id="emailList" placeholder="subscribe to our newsletter"  data-toggle="tooltip" data-placement="top" title="Enter your email address"/>
+              <button>Send</button>
+          </form>
+          <form action="" method="post" id="myForm">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <textarea name="message" id="message" placeholder="send us your feedback"></textarea>
+              <button>Send</button>
+          </form>
+      </div>
+  </footer>
 
-                    <div class="col-xs-12 space">
-                            <a href="#lifestyle" class="btn btn-primary pull-right bspace text-center hidebiz" ><strong>Collapse &times;</strong></a>
-                    </div>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+  <script src="js/bootstrap.js"></script>
+  <script src ="js/myJs.js"></script>
+  <!--<script src="jquery-slim.min.js"></script>-->
+  <script src="js/tether.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
 
-
-
-        </div>
-</div>
-</div>
-
-
-
-
-        <div class="row" >
-
-	<div class="footer">
-    	<!--<ul>
-        	<li> <a href="#" >Home</a> </li>
-            <li> <a href="#" >Home</a> </li>
-            <li> <a href="#" >Home</a> </li>
-            <li> <a href="#" >Home</a> </li>
-            <li> <a href="#" >Home</a> </li>
-        </ul>-->
-        <div class="container"  id="dl">
-            <div class="row">
-            	<div class="col-md-8 fspace">
-            <p><a href="#" >Home</a>
-                <a href="#" >Privacy Policy</a>
-                <a href="#supportForm" id="support">Feedback</a></p>
-            	</div>
-            	<div class="col-md-4" >
-             <p><a href="#"><img id="dsp" class="pull-right clearfix" src="images/gspp.jpg"/></a></p>
-            	</div>
-
-                <div class="col-md-5" id="supportForm">
-
-                    <form role="form" id="myForm" action="" method="get">
-                        <br style="clear:both">
-                        <h3>Support Form</h3>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-                        </div>
-
-                        <!--<div class="form-group">-->
-                            <!--<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>-->
-                        <!--</div>-->
-                        <div class="form-group">
-                            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                        </div>
-
-                        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-                    </form>
-
-                </div>
-                <div class="row" >
-                    <div class="col-xs-12 centered bspace">
-
-                        <div class="alert alert-success collapse" id="myAlert" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <strong>Thank You!</strong> Your message has been sent.
-                        </div>
-
-                        <div class="alert alert-error collapse" id="myAlert" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <strong>Error!</strong> Something went wrong.
-                        </div>
-
-
-
-                    </div>
-
-
-                </div>
-            </div>
-
-
-
-        <hr class="hh">
-
-        <div class="row">
-            	<div class="col-md-12 centered">
-            <p><a href="#" ><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> </a>	<a href="#" ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>	<a href="#" ><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a href="#" ><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></p>
-            	</div>
-
-            </div>
-
-
-
-
-        </div>
-
-    </div>
-            </div>
-      
-    </div> <!-- /container -->
-
-
-<!--   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!--&ndash;&gt;    <script src="js/vendor/jquery.min.js"></script>-->
-    <!--&lt;!&ndash;<script src="js/bootstrap.min.js"></script>&ndash;&gt;-->
-    <!--&lt;!&ndash; IE10 viewport hack for Surface/desktop Windows 8 bug &ndash;&gt;-->
-    <!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
-    <!--<script src="js/jquery.js"></script>-->
-    <script src="js/myJs.js"></script>
-    <!--<script src="js/jquery.ui.core.js"></script>-->
-    <!--<script src="js/jquery-ui.min.js"></script>-->
-    <!--<script-->
-            <!--src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="-->
-            <!--crossorigin="anonymous"></script>-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  </body>
-</body>
+  </body>
 </html>
