@@ -12,10 +12,11 @@
     <title>Cash Stream 2017</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:700">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Passion+One" rel="stylesheet">
-    <link href="css/mycss.css" rel="stylesheet">
-    <link href="css/nn.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+
 
     <!--
      |***********************************************************|
@@ -28,14 +29,8 @@
      -->
     <meta name="description" content="Official website for cash stream game">
     <meta name="author" content="Emmanuel Ndukwe">
-    <link rel="icon" href="">
     <title>CASH STREAMS 2017</title>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function(){
-          emailjs.init("user_vxUe1nZ3FDkXzG5ch4QUF");
-      })();
-    </script>
+
 </head>
 <body data-spy="scroll" data-target="#navbarToggler" data-offset="10">
   <a class="float" href="index.html">
@@ -90,7 +85,6 @@
                   <h3>Live It Up!</h3>
                   <p>How would like to enjoy your success? This game will help you add a premium perspective to your dreams.</p>
                   <p><a class="btn btn-outline-info" href="#download" role="button">Let's Go!</a></p>
-
               </div>
           </div>
       </div>
@@ -134,7 +128,6 @@
                   <h3>Live It Up!</h3>
                   <p>How would like to enjoy your success? This game will help you add a premium perspective to your dreams.</p>
                   <p><a class="btn btn-outline-info" href="#download" role="button">Let's Go!</a></p>
-
               </div>
           </div>
       </div>
@@ -147,9 +140,6 @@
           <span class="sr-only">Next</span>
       </a>
   </div>
-
-  <!--<div class="hidden-sm-up" style="height: 300px; width: 100%; background-image: url('images/caru2.fw.png'); background-size: cover" >-->
-  <!--</div>-->
   <div class="container-fluid" id="overview">
       <div class="row">
           <div class=" col-12 ribbon-gold align-content-center">
@@ -522,7 +512,9 @@
               ·
               <a href="#">Term of Use</a>
           </p>
-          <p><a href="#"><img id="dsp" class="" src="images/gspp.jpg"/></a></p>
+          <p class="footer-company-name" >Comming Soon, Subscribe to <br/>our newsletter to know when<br/> the game will be launched.</p>
+
+          <p><a href="#"><img id="dsp" class="disabled" src="images/gspp.jpg"/></a></p>
 
           <p class="footer-company-name">CashStreams &copy; 2017</p>
           <div class="footer-icons">
@@ -534,7 +526,7 @@
       <div class="footer-right">
           <form action="" method="post" style="margin-right: 70px" id="subForm">
               <input type="email" id="emailList" placeholder="subscribe to our newsletter"  data-toggle="tooltip" data-placement="top" title="Enter your email address"/>
-              <button>Send</button>
+              <button id="submit">Send</button>
           </form>
           <form action="" method="post" id="myForm">
               <input type="email" name="email" id="email" placeholder="Email" />
@@ -544,13 +536,15 @@
       </div>
   </footer>
 
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function(){
+          emailjs.init("user_vxUe1nZ3FDkXzG5ch4QUF");
+      })();
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src ="js/myJs.js"></script>
-  <!--<script src="jquery-slim.min.js"></script>-->
-  <script src="js/tether.min.js"></script>
-  <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
-
   </body>
 </html>

@@ -59,8 +59,11 @@ $('document').ready(function(e) {
         }
         return false;
     });
-    $("#subForm").on('submit', function(){
-        if($('#email').val() !=='') {
+
+    $("#submit").on('click', function(){
+        console.log("working fine");
+        if($('#emailList').val() !=='') {
+            console.log("working");
             var email = $('#emailList').val();
             emailjs.send("gmail", "cash", {
                 email: email,
@@ -73,6 +76,7 @@ $('document').ready(function(e) {
                 }, function (err) {
                     console.log("FAILED. error=", err);
                     $('#content').html(errorMsg);
+                    console.log("ok");
 
                 });
         }else{
