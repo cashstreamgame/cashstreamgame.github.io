@@ -3,6 +3,17 @@ $('document').ready(function(e) {
     $('.investment').hide();
     $('.business').hide();
     $('.lifestyle').hide();
+    $('.terms').hide();
+    $('.privacyPolicy').hide();
+    $('#termOfUse').click(function(e){
+        $('.privacyPolicy').hide();
+        $('.terms').fadeIn(1000, "swing");
+    });
+
+    $('#privacyPolicyButton').click(function(e){
+        $('.terms').hide();
+        $('.privacyPolicy').fadeIn(1000, "swing");
+    });
     $('#lifestyleButton').click(function(e){
         $('.investment').hide();
         $('.business').hide();
@@ -22,6 +33,8 @@ $('document').ready(function(e) {
         $('.investment').hide();
         $('.business').hide();
         $('.lifestyle').hide();
+        $('.terms').hide();
+        $('.privacyPolicy').hide();
     });
     var feedback = '<div class="alert alert-success alert-dismissible fade show" role="alert">'+
         '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>'+
